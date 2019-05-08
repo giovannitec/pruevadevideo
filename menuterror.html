@@ -72,9 +72,9 @@ overflow: scroll;
     <div class="container py-5">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <h1 class="mb-4 display-3">MENU</h1>
-          <p class="lead mb-5">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</p>
-          <a href="#" class="btn btn-lg btn-primary mx-1"></a>
+          <h1 class="mb-4 display-3">Menu Terror</h1>
+          <p class="lead mb-5">.</p>
+          <a href="#" class="btn btn-lg btn-primary mx-1">Your call to action</a>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ overflow: scroll;
                         <div class="tamanoclass">
                             <h2>Bird Box</h2>
                             <div class="card">
-                            <img id="birdbox" onclick="esthtml('menuterror.html');" class="climgtodas" src="birdboxi.jpg" alt="Avatar" >
+                            <img id="birdbox" onclick="esthtml(this);" class="climgtodas" src="birdboxi.jpg" alt="Avatar" >
                             <div class="container">
                             <h4><b>ok</b></h4> 
                             <p>2019</p> 
@@ -112,15 +112,13 @@ overflow: scroll;
 
 
 
-
-
                     <!--inicia-->
                     <div class="col-md-2">
             
                             <div class="tamanoclass">
                                 <h2>Bird Box</h2>
                                 <div class="card">
-                                <img id="menuterror" onclick="esthtml(this);" class="climgtodas" src="birdboxi.jpg" alt="Avatar" >
+                                <img id="birdbox" onclick="esthtml(this);" class="climgtodas" src="birdboxi.jpg" alt="Avatar" >
                                 <div class="container">
                                 <h4><b>ok</b></h4> 
                                 <p>2019</p> 
@@ -131,6 +129,9 @@ overflow: scroll;
                         </div>
                            <!--fin-->
 
+
+
+             
 
                     <!--inicia-->
                     <div class="col-md-2">
@@ -156,7 +157,7 @@ overflow: scroll;
                             <div class="tamanoclass">
                                 <h2>Bird Box</h2>
                                 <div class="card">
-                                <img id="menuterror" onclick="esthtml(this);" class="climgtodas" src="birdboxi.jpg" alt="Avatar" >
+                                <img id="birdbox" onclick="esthtml(this);" class="climgtodas" src="birdboxi.jpg" alt="Avatar" >
                                 <div class="container">
                                 <h4><b>ok</b></h4> 
                                 <p>2019</p> 
@@ -390,8 +391,7 @@ overflow: scroll;
 
 function esthtml(thiss){
 
-window.location=thiss;
- 
+    window.location="terror/"+String(thiss.id)+".html";
 }
 
 
